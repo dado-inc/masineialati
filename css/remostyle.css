@@ -1,0 +1,31 @@
+.dwspecs-product-table {
+        font-family: arial;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+        color: rgb(75, 75, 75);
+        border-top: 1pt solid black;
+    }
+
+    table tr td {
+        border-right: 1pt solid;
+        border-bottom: 1pt solid white !important;
+        padding: 5px;
+    }
+
+    table tr>td:first-child {
+        width: 30%;
+        background-color: rgb(240, 240, 240);
+        color: rgb(75, 75, 75);
+    }
+
+    table tr:last-child td {
+        border-bottom: 1pt solid black !important;
+    }
+
+    table tr:first-child td {
+        border-top: none !important;
+    }
