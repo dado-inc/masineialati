@@ -1,3 +1,14 @@
+/* /////////// Desc /////////// */
+body {
+    font-family: Arial !important;     
+}    
+
+p { 
+    font-size: 17px;
+    margin-bottom: 15px;      
+}
+
+/* /////////// Table ////////// */
 .dwspecs-product-table {
         font-family: arial;
         margin-bottom: 15px;
@@ -29,3 +40,39 @@
     table tr:first-child td {
         border-top: none !important;
     }
+
+/* ////////////// Signature ///////////////// */
+
+button {
+            cursor: pointer;
+            outline: none;
+        }
+        .outline {
+            position: relative;
+            z-index: 3;
+            background: transparent;
+            color: #0299d1;
+            font-size: 16px;
+            border-color: #0299d1;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 6px;
+            padding: 10px 20px;
+            /*text-transform: uppercase;*/
+            transition: all 0.2s linear;
+        }
+        .outline:hover {
+            color: white;
+            background: #0299d1;
+            border-color: white;
+            transition: all 0.2s linear;
+        }
+        .outline:active {
+            border-radius: 6px;
+        }
+        a {
+            text-decoration: none;
+        }
+		ul {
+		list-style: none;
+		}
