@@ -18,8 +18,12 @@ p {
         width: 100%;
         background-color: rgb(247, 247, 247);
         color: rgb(75, 75, 75);
-        border-top: 1pt solid black;
+        border-top: none!important;
     }
+
+   .dwspecs-product-table-group:nth-child(2) {
+        border-top: 1px solid black;
+   }
 
     table tr td {
         border-right: 1pt solid;
